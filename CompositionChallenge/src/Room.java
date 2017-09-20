@@ -12,4 +12,17 @@ public class Room {
         this.theChair = theChair;
         this.thePC = thePC;
     }
+
+    public void lookAround() {
+        theCeiling.observeCeiling();
+        theFloor.observeFloor();
+    }
+
+    public void sitDown() {
+        theChair.Sit();
+    }
+
+    public void usePC() {
+        thePC.powerUp();
+    }
 }

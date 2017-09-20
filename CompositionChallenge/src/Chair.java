@@ -26,4 +26,8 @@ public class Chair {
             System.out.println("The chair scuffs along the floor.");
         }
     }
+
+    public void Sit() {
+        System.out.println("You sit in the office chair in front of the desk");
+    }
 }

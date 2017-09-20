@@ -15,8 +15,8 @@ public class Floor {
         return material;
     }
 
-    public void ObserveFloor() {
-        System.out.println("The floor is " + dimensions.getLength() + " long by " + dimensions.getWidth() + " and made of " + material);
+    public void observeFloor() {
+        System.out.println("The floor is " + dimensions.getLength() + " long by " + dimensions.getWidth() + " wide and made of " + material);
     }
 
 }
